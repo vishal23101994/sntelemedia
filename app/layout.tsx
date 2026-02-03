@@ -23,10 +23,20 @@ const poppins = Poppins({
 /* ================= METADATA ================= */
 
 export const metadata: Metadata = {
-  title: "SN Telemedia Service",
+  title: "SN Telemedia Services",
   description: "Modern Media & Telemedia Solutions",
   applicationName: "SN Telemedia Service",
+
+  icons: {
+    icon: [
+      { url: "/favicon1.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180" },
+    ],
+  },
 };
+
 
 /* ================= ROOT LAYOUT ================= */
 
